@@ -7,7 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import {getCssValue,SystemProvider} from './theme'
+import { createExtracts, SystemProvider } from './theme'
 
 
 export const meta: MetaFunction = () => ({
@@ -17,13 +17,13 @@ export const meta: MetaFunction = () => ({
 });
 
 export default function App() {
-  const {StyilRules} = getCssValue()
+  const { ExtractElement } = createExtracts()
 
 
   return (
     <html lang="en">
       <head>
-        {StyilRules}
+        <ExtractElement />
         <Meta />
         <Links />
       </head>
