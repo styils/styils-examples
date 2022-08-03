@@ -1,4 +1,4 @@
-import { styled,useSystem } from '../theme'
+import { styled,useSystem } from '../../theme'
 
 const Button = styled('button', (theme)=>({
   backgroundColor:theme.color

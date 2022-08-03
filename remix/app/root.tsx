@@ -7,7 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import { createExtracts, SystemProvider } from './theme'
+import { createExtracts, SystemProvider } from '../theme'
 
 
 export const meta: MetaFunction = () => ({

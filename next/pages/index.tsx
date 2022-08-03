@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { createExtracts, styled,useSystem } from './theme'
+import { createExtracts, styled,useSystem } from '../theme'
 
 const Button = styled('button', (theme) => ({
   color:theme.color
