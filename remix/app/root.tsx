@@ -17,13 +17,13 @@ export const meta: MetaFunction = () => ({
 });
 
 export default function App() {
-  const { ExtractElement } = createExtracts()
+  const { extractElement } = createExtracts()
 
 
   return (
     <html lang="en">
       <head>
-        <ExtractElement />
+        {extractElement}
         <Meta />
         <Links />
       </head>
