@@ -1,0 +1,10 @@
+{
+  "name": "styils-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zoy <zoy-l@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
