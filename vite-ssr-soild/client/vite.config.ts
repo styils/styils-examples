@@ -45,10 +45,7 @@ export default defineConfig({
   ],
   server: { middlewareMode: true },
   ssr: {
-    noExternal: [
-      '@solidjs/router',
-      process.env.NODE_ENV === 'production' ? '@styils/solid' : ''
-    ].filter(Boolean)
+    noExternal: ['@solidjs/router', '@styils/solid']
   },
   appType: 'custom'
 })

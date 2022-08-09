@@ -12,7 +12,7 @@ function parseId(id: string) {
 export default defineConfig({
   plugins: [
     {
-      name: 'test',
+      name: 'vite-plugin-styils',
       enforce: 'pre',
       async transform(code, id) {
         const filePath = parseId(id)
@@ -44,6 +44,6 @@ export default defineConfig({
     solid()
   ],
   ssr: {
-    noExternal: [process.env.NODE_ENV === 'production' ? '@styils/solid' : ''].filter(Boolean)
+    noExternal: ['@styils/solid']
   }
 })
