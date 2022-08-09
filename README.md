@@ -1,1 +1,1 @@
-## styls usage examples
+## styils usage examples
