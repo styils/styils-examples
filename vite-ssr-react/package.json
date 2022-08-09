@@ -1,5 +1,5 @@
 {
-  "name": "test-ssr-react",
+  "name": "vite-ssr-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,7 @@
     "debug": "node --inspect-brk server"
   },
   "dependencies": {
-    "@styils/react": "^0.0.4-alpha.23",
+    "@styils/react": "^0.0.4-alpha.28",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0"
