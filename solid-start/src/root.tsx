@@ -16,7 +16,8 @@ import { SystemProvider, createExtracts } from './theme'
 import './root.css'
 
 export default function Root() {
-  const { extractElement } = createExtracts()
+  const { extractElement, extractHtml } = createExtracts()
+
   return (
     <Html lang="en">
       <Head>

@@ -5,6 +5,8 @@
   "author": "zoy <zoy-l@outlook.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "fs-extra": "^10.1.0",
     "prettier": "^2.7.1"
   }
 }
