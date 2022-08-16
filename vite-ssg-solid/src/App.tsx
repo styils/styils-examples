@@ -1,6 +1,10 @@
-import { useRoutes, Link } from '@solidjs/router'
+import { useRoutes } from '@solidjs/router'
 import type { Component } from 'solid-js'
 import { routes } from './routes'
+
+function Link({ children, ...rest }) {
+  return <a {...rest}>{children}</a>
+}
 
 const App: Component = () => {
   const Routes = useRoutes(routes)

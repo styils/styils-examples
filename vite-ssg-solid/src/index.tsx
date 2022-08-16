@@ -1,8 +1,7 @@
 import { Router } from '@solidjs/router'
-import { render } from 'solid-js/web'
+import { hydrate, render } from 'solid-js/web'
 import App from './App'
-
-render(
+;(process.env.NODE_ENV === 'production' ? hydrate : render)(
   () => (
     <Router>
       <App />
