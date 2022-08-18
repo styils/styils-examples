@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import vuePlugin from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
+import styils from '@styils/vite-plugin'
 
 const virtualFile = '@virtual-file'
 const virtualId = '\0' + virtualFile
@@ -17,6 +18,7 @@ globalThis.__vite_test_dirname = __dirname
 export default defineConfig(({ command, ssrBuild }) => ({
   base,
   plugins: [
+    styils({ importPaths: /theme/ }),
     vuePlugin(),
     vueJsx(),
     {

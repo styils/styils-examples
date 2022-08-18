@@ -19,6 +19,7 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@styils/vite-plugin": "1.0.9",
     "@vitejs/plugin-vue": "3.0.3",
     "@vitejs/plugin-vue-jsx": "2.0.0",
     "compression": "^1.7.4",
