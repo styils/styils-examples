@@ -25,9 +25,9 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.4.2",
-    "@styils/solid": "^1.0.3",
+    "@styils/solid": "^1.0.8",
     "express": "^4.18.1",
-    "solid-js": "^1.4.7",
+    "solid-js": "^1.5.0",
     "vite-plugin-solid": "^2.2.6"
   }
 }

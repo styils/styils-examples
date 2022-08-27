@@ -1,0 +1,20 @@
+---
+import Counter from "../components/Counter";
+// need last
+import Styles from "../components/Styles";
+---
+
+<html lang="en">
+	<head>
+		<Styles />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="color-scheme" content="dark light" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro + stitches</title>
+	</head>
+	<body>
+		<h1>Astro</h1>
+		<Counter client:load>Hi, I'm a styils Counter</Counter>
+	</body>
+</html>
